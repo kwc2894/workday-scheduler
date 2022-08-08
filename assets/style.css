@@ -1,0 +1,76 @@
+/*
+sets the margine and padding to 0 for the whole application
+*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /*
+default font for main body
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+/*
+adds the time, and Jquery extentions to the header classes
+*/
+  .jumbotron {
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #1f1f1f;
+    border-radius: 0px;
+  }
+  
+/*Status update when the user clicks the button (CHANGES TO display: block WHEN BUTTON IS CLICKED)*/
+.status {
+    display: none;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #1f1f1f;
+    border-radius: 0px;
+}
+
+  /* Calendar editable item */
+  .textarea {
+    background: transparent;
+    resize: none;
+    border-left: 1px dotted #1f1f1f;
+    font-size: 22px;
+  }
+  /*hour classes based on time (hour, past, present, future) */
+  .hour {
+    background-color: #fff;
+    font-weight: bold;
+    height: 79px;
+    color: #000000;
+  }
+  .past {
+    background-color: #d3d3d3;
+  }
+  .present {
+    background-color: #ff6961;
+  }
+  .future {
+    background-color: #77dd77;
+  }
+  /*Save button to be at the right side and interactable with the text */
+  .saveBtn {
+    border-left: 1px solid #1f1f1f;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: #fff;
+    padding: 20px 40px;
+  }
+  /*Hover conditional to highlight when user hovers over it*/
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  /*Jquery class to help format the list to be identical with the acceptance criteria gif*/
+  .mb-3{
+    margin-bottom: 0rem!important;
+    height: 79px;
+  }
