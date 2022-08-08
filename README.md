@@ -36,4 +36,4 @@ THEN the saved events persist
 
 ## Deployed page
 
-Page published at: 
+Page published at: https://kwc2894.github.io/workday-scheduler/
