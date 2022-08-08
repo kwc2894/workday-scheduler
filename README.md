@@ -32,7 +32,7 @@ THEN the saved events persist
 
 ## Screenshot
 
-![GeneratorScreen]()
+![GeneratorScreen](https://github.com/kwc2894/workday-scheduler/blob/main/assets/Screen%20Shot%202022-08-08%20at%206.51.28%20PM.png)
 
 ## Deployed page
 
